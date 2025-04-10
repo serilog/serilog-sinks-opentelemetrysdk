@@ -12,8 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// ReSharper disable once RedundantUsingDirective
-using System.Net.Http;
 using Microsoft.Extensions.DependencyInjection;
 using OpenTelemetry.Logs;
 using Serilog.Configuration;
