@@ -2,7 +2,7 @@ namespace Serilog
 {
     public static class OpenTelemetryLoggerConfigurationExtensions
     {
-        public static Serilog.LoggerConfiguration OpenTelemetrySdk(this Serilog.Configuration.LoggerSinkConfiguration loggerSinkConfiguration, System.IServiceProvider services, Serilog.Sinks.OpenTelemetrySdk.IncludedData includedData = 13, System.IFormatProvider? formatProvider = null, Serilog.Events.LogEventLevel restrictedToMinimumLevel = 0, Serilog.Core.LoggingLevelSwitch? levelSwitch = null) { }
+        public static Serilog.LoggerConfiguration OpenTelemetrySdk(this Serilog.Configuration.LoggerSinkConfiguration loggerSinkConfiguration, System.IServiceProvider services, Serilog.Sinks.OpenTelemetrySdk.IncludedData includedData = 269, System.IFormatProvider? formatProvider = null, Serilog.Events.LogEventLevel restrictedToMinimumLevel = 0, Serilog.Core.LoggingLevelSwitch? levelSwitch = null) { }
     }
 }
 namespace Serilog.Sinks.OpenTelemetrySdk
