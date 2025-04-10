@@ -11,7 +11,7 @@ This Serilog sink passes Serilog `LogEvents` to the OpenTelemetry SDK.
 
 ## Getting started
 
-To use this sink, you should already have a **pre-release** (`-beta` or `-rc`) version of the OpenTeleme~~~~try SDK installed
+To use this sink, you should already have a **pre-release** (`-beta` or `-rc`) version of the OpenTelemetry SDK installed
 and configured.
 
 Install the [NuGet package](https://nuget.org/packages/serilog.sinks.opentelemetrysdk):
