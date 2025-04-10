@@ -1,8 +1,10 @@
-﻿using PublicApiGenerator;
+﻿#if PUBLIC_API_TESTS
+
+using PublicApiGenerator;
 using Shouldly;
 using Xunit;
 
-namespace Serilog.Sinks.OpenTelemetry.Tests;
+namespace Serilog.Sinks.OpenTelemetrySdk.Tests;
 
 public class PublicApiVisibilityTests
 {
@@ -23,3 +25,5 @@ public class PublicApiVisibilityTests
         });
     }    
 }
+
+#endif

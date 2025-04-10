@@ -18,6 +18,10 @@
     <Optimize>false</Optimize>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net9.0'">
+    <DefineConstants>$(DefineConstants);PUBLIC_API_TESTS</DefineConstants>
+  </PropertyGroup> 
+
   <ItemGroup>
     <ProjectReference Include="..\..\src\Serilog.Sinks.OpenTelemetrySdk\Serilog.Sinks.OpenTelemetrySdk.csproj" />
   </ItemGroup>
