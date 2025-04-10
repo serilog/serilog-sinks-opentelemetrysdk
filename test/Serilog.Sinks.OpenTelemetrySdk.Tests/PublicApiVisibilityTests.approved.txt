@@ -1,0 +1,23 @@
+namespace Serilog
+{
+    public static class OpenTelemetryLoggerConfigurationExtensions
+    {
+        public static Serilog.LoggerConfiguration OpenTelemetrySdk(this Serilog.Configuration.LoggerSinkConfiguration loggerSinkConfiguration, System.IServiceProvider services, Serilog.Sinks.OpenTelemetrySdk.IncludedData includedData = 13, System.IFormatProvider? formatProvider = null, Serilog.Events.LogEventLevel restrictedToMinimumLevel = 0, Serilog.Core.LoggingLevelSwitch? levelSwitch = null) { }
+    }
+}
+namespace Serilog.Sinks.OpenTelemetrySdk
+{
+    [System.Flags]
+    public enum IncludedData
+    {
+        None = 0,
+        MessageTemplateTextAttribute = 1,
+        MessageTemplateMD5HashAttribute = 2,
+        TraceIdField = 4,
+        SpanIdField = 8,
+        TemplateBody = 32,
+        MessageTemplateRenderingsAttribute = 64,
+        SourceContextAttribute = 128,
+        StructureValueTypeTags = 256,
+    }
+}

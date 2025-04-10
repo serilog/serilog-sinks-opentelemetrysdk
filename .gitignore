@@ -37,6 +37,12 @@ bld/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
+# JetBrains Rider cache
+.idea/
+
+# VSCode cache
+.vscode/
+
 # Visual Studio 2017 auto generated files
 Generated\ Files/
 
@@ -82,8 +88,6 @@ StyleCopReport.xml
 *.pgc
 *.pgd
 *.rsp
-# but not Directory.Build.rsp, as it configures directory-level build defaults
-!Directory.Build.rsp
 *.sbr
 *.tlb
 *.tli
@@ -398,3 +402,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/test/Serilog.Sinks.OpenTelemetry.Tests/PublicApiVisibilityTests.received.txt
+
+.DS_Store
