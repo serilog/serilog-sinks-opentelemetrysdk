@@ -2,7 +2,8 @@
 
 This Serilog sink passes Serilog `LogEvents` to the OpenTelemetry SDK.
 
-> [!IMPORTANT] This package relies on experimental OpenTelemetry features.
+> [!IMPORTANT]
+> This package relies on experimental OpenTelemetry features.
 > It will only work with pre-release builds
 > of the .NET OpenTelemetry SDK. Because there's no guarantee that these 
 > experimental features will ever ship as stable APIs, there's also no guarantee
